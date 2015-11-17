@@ -63,7 +63,7 @@ if(connect( gniazdo,( struct sockaddr * ) & dane, sizeof( struct sockaddr ) ) ==
 #include <sys/wait.h>
 #include <signal.h>
 #include <netdb.h>
-#include <fcntl.h>
+#include <fcntl.h> //wiekszosc tych bibliotek nie jest uzywana ;D
 
 using namespace std;
 
